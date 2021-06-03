@@ -20,8 +20,8 @@ export enum Rounding {
 }
 
 export const FACTORY_ADDRESS: { [chainId in ChainId]: string } = {
-  [ChainId.FUJI]: '0x5b48659781dccb21031Bdd510f0e46163cC95Ea2',
-  [ChainId.AVALANCHE]: '0x5b48659781dccb21031Bdd510f0e46163cC95Ea2' // TODO: put the Avalanche factory's contract address here
+  [ChainId.FUJI]: '0x2381ad9968a9651D209A9FDa2beB23a4d9045188',
+  [ChainId.AVALANCHE]: '0x2381ad9968a9651D209A9FDa2beB23a4d9045188' // TODO: put the Avalanche factory's contract address here
 }
 
 export const INIT_CODE_HASH = '0x94c853354a344ff78673fb342ea963a6d2b95e4314c19cd8f51c9940de445a9a'
