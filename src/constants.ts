@@ -20,7 +20,7 @@ export enum Rounding {
 }
 
 export const FACTORY_ADDRESS: { [chainId in ChainId]: string } = {
-  [ChainId.FUJI]: '0x3C2f50A7232A960d6D5Ece9C1583B3bEC6c23663',
+  [ChainId.FUJI]: '0xDB7D8719A03d02FC7595803F8365E3FA3364fCe5',
   [ChainId.AVALANCHE]: '0x0000000000000000000000000000000000000000' // TODO: put the Avalanche factory's contract address here
 }
 
