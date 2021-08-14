@@ -20,11 +20,11 @@ export enum Rounding {
 }
 
 export const FACTORY_ADDRESS: { [chainId in ChainId]: string } = {
-  [ChainId.FUJI]: '0xDB7D8719A03d02FC7595803F8365E3FA3364fCe5',
+  [ChainId.FUJI]: '0x6127b0eaB9E9A2062fb3373374f85541bB895aC5',
   [ChainId.AVALANCHE]: '0x0000000000000000000000000000000000000000' // TODO: put the Avalanche factory's contract address here
 }
 
-export const INIT_CODE_HASH = '0x4a7e237dc58fb0c257db3495bada2d5853811107221f44bdf4ab0ed21031c98e'
+export const INIT_CODE_HASH = '0xe1717150b4b88647f35781cb8b6bcaebe652a5cc5106efd7e4fe45384b07c686' // keccak256 of PolarfoxPair's bytecode (not to be confused with deployed bytecode)
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
 
